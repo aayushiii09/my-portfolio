@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Aayushi Mehta, IT graduate and M.Sc. Data Science student at SVKM’s NMIMS Mumbai, focused on Python, SQL, data analytics, visualization, AI and machine learning internships.">
+<title>Aayushi Mehta — Data & Analytics Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f8f9f7;--paper:#fff;--ink:#20251f;--muted:#667067;--line:#e4e8e2;--accent:#52765b;--accent-soft:#eaf0e9;--dark:#17231b;--radius:22px;--max:1120px}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:90px}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.65 "DM Sans",sans-serif}a{color:inherit;text-decoration:none}button{font:inherit}.wrap{width:min(var(--max),calc(100% - 44px));margin:auto}
+header{position:sticky;top:0;z-index:20;background:rgba(248,249,247,.92);backdrop-filter:blur(14px);border-bottom:1px solid rgba(228,232,226,.8)}nav{height:76px;display:flex;align-items:center;justify-content:space-between;gap:24px}.brand{display:flex;align-items:center;gap:11px;font-weight:800;letter-spacing:.02em}.monogram{display:grid;place-items:center;width:37px;height:37px;background:var(--dark);color:#fff;border-radius:12px;font:700 13px Manrope,sans-serif}.navlinks{display:flex;gap:26px;font-size:13px;color:#535d54}.navlinks a:hover{color:var(--accent)}.nav-cta,.btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;border-radius:999px;padding:11px 17px;font-size:13px;font-weight:700;transition:.2s ease}.nav-cta,.btn.primary{background:var(--dark);color:#fff;border:1px solid var(--dark)}.btn.secondary{border:1px solid var(--line);background:#fff}.nav-cta:hover,.btn:hover{transform:translateY(-2px)}.menu{display:none;background:none;border:1px solid var(--line);border-radius:10px;padding:8px 10px}
+.hero{padding:94px 0 60px}.hero-grid{display:grid;grid-template-columns:1.15fr .85fr;align-items:center;gap:72px}.kicker{display:flex;align-items:center;gap:9px;color:var(--accent);font-size:11px;font-weight:800;letter-spacing:.18em;text-transform:uppercase}.kicker:before{content:"";width:24px;height:1px;background:var(--accent)}h1,h2,h3,p{margin-top:0}h1{font:800 clamp(48px,6.3vw,78px)/1.04 Manrope,sans-serif;letter-spacing:-.07em;margin:22px 0 20px}h1 span{color:var(--accent)}.lead{max-width:590px;color:var(--muted);font-size:17px;line-height:1.8}.actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}.socials{display:flex;gap:18px;margin-top:26px;font-size:13px;font-weight:700;color:var(--muted)}.socials a:hover{color:var(--accent)}.hero-art{position:relative;min-height:380px;display:grid;place-items:center}.orbit{width:min(350px,85vw);aspect-ratio:1;border:1px solid #d7dfd5;border-radius:50%;position:absolute}.orbit:before,.orbit:after{content:"";position:absolute;border:1px solid #e3e8e1;border-radius:50%;inset:28px}.orbit:after{inset:58px}.profile-card{position:relative;width:260px;height:300px;border-radius:28px;background:linear-gradient(145deg,#dfe9dd,#f1f3ed);display:flex;flex-direction:column;justify-content:space-between;padding:23px;box-shadow:0 24px 70px #263a2a16;transform:rotate(-3deg);overflow:hidden}.profile-card:after{content:"";position:absolute;width:230px;height:230px;border-radius:50%;background:#c3d3c1;right:-90px;top:-75px}.profile-card .initials{font:800 78px/1 Manrope,sans-serif;letter-spacing:-.1em;color:var(--dark);z-index:1}.profile-card .card-bottom{z-index:1}.profile-card .card-bottom strong{display:block;font:700 18px Manrope}.profile-card .card-bottom span{color:#526653;font-size:12px}.floating{position:absolute;background:#fff;border:1px solid var(--line);box-shadow:0 10px 30px #2035250d;padding:13px 16px;border-radius:14px;font-size:12px}.floating b{display:block;font-size:14px}.float-one{right:-3px;top:62px}.float-two{left:-4px;bottom:50px}
+.quickfacts{display:grid;grid-template-columns:repeat(3,1fr);border:1px solid var(--line);border-radius:18px;background:#fff;margin-top:10px}.fact{padding:20px 24px;border-right:1px solid var(--line)}.fact:last-child{border:0}.fact strong{display:block;font:800 15px Manrope}.fact span{font-size:12px;color:var(--muted)}
+section.content{padding:84px 0}.section-head{display:flex;justify-content:space-between;align-items:end;gap:24px;margin-bottom:30px}.eyebrow{color:var(--accent);font-size:11px;font-weight:800;letter-spacing:.18em;text-transform:uppercase;margin-bottom:10px}.section-head h2,.about-copy h2,.contact h2{font:800 clamp(30px,4vw,45px)/1.15 Manrope,sans-serif;letter-spacing:-.055em;margin-bottom:0}.section-sub{color:var(--muted);max-width:380px;font-size:14px;margin:0}
+.about{background:#fff;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:70px;align-items:start}.about-copy p{color:var(--muted);max-width:550px}.about-copy h2{margin-bottom:22px}.values{display:grid;gap:12px}.value{display:flex;gap:15px;align-items:flex-start;padding:17px 18px;border:1px solid var(--line);border-radius:16px;background:#fcfdfb}.value-icon{flex:0 0 36px;height:36px;border-radius:11px;background:var(--accent-soft);display:grid;place-items:center;color:var(--accent);font-weight:800}.value strong{display:block;font-size:14px}.value span{color:var(--muted);font-size:12px}
+.skills-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}.skill{background:#fff;border:1px solid var(--line);border-radius:15px;padding:18px;display:flex;align-items:center;gap:12px;font-size:13px;font-weight:700}.skill-icon{width:34px;height:34px;display:grid;place-items:center;background:var(--accent-soft);color:var(--accent);border-radius:10px;font:800 12px Manrope}
+.projects-section{background:#eef2ed}.project-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.project{background:#fff;border:1px solid #e0e6de;border-radius:19px;padding:23px;display:flex;flex-direction:column;min-height:250px;transition:.2s}.project:hover{transform:translateY(-4px);box-shadow:0 15px 35px #2136250c}.project-top{display:flex;justify-content:space-between;align-items:center;margin-bottom:27px}.project-number{font:800 12px Manrope;color:var(--accent);background:var(--accent-soft);border-radius:9px;padding:8px 10px}.project-arrow{font-size:20px;color:#89928a}.project h3{font:700 18px/1.35 Manrope;letter-spacing:-.03em;margin-bottom:10px}.project p{font-size:13px;color:var(--muted);margin-bottom:20px}.tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:auto}.tag{background:#f3f5f2;color:#586259;border-radius:999px;padding:5px 9px;font-size:10px;font-weight:700}
+.education-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}.education{background:#fff;border:1px solid var(--line);border-radius:18px;padding:23px}.edu-top{display:flex;justify-content:space-between;gap:15px}.edu-date{font-size:11px;color:var(--accent);font-weight:800;white-space:nowrap}.education h3{font:700 17px Manrope;margin:10px 0 5px}.education p{font-size:13px;color:var(--muted);margin-bottom:0}
+.cert-group{margin-top:28px}.cert-group:first-of-type{margin-top:0}.cert-group-title{font:700 19px Manrope,sans-serif;letter-spacing:-.03em;margin:0 0 14px;display:flex;align-items:center;gap:10px}.cert-group-title span{font:700 10px "DM Sans",sans-serif;letter-spacing:.1em;text-transform:uppercase;color:var(--accent);background:var(--accent-soft);padding:5px 9px;border-radius:999px}.certs{display:grid;grid-template-columns:repeat(3,1fr);gap:15px}.cert{background:#fff;border:1px solid var(--line);border-radius:17px;padding:22px;min-height:190px;display:flex;flex-direction:column}.cert-brand{font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);font-weight:800;margin-bottom:17px}.cert h3{font:700 16px/1.4 Manrope;margin-bottom:9px}.cert p{color:var(--muted);font-size:12px;margin-bottom:15px}.cert .verify{margin-top:auto;font-size:12px;font-weight:700;color:var(--accent)}.cert .verify:hover{text-decoration:underline}
+.contact{background:var(--dark);color:#fff;border-radius:24px;padding:44px;display:grid;grid-template-columns:1fr auto;align-items:center;gap:28px}.contact .eyebrow{color:#a9c7aa}.contact p{color:#c3cec4;max-width:570px;margin:16px 0 0}.contact .btn{background:#fff;color:var(--dark);border-color:#fff;white-space:nowrap}.contact-links{display:flex;gap:18px;flex-wrap:wrap;margin-top:22px;font-size:13px;color:#dce5dc}.contact-links a:hover{color:#a9c7aa}footer{padding:25px 0;color:var(--muted);font-size:12px}.footer-row{display:flex;justify-content:space-between;gap:20px}
+.reveal{opacity:0;transform:translateY(14px);transition:opacity .55s ease,transform .55s ease}.reveal.visible{opacity:1;transform:none}
+@media(max-width:850px){.navlinks{gap:14px}.nav-cta{display:none}.hero-grid{gap:25px}.skills-grid{grid-template-columns:repeat(3,1fr)}.project-grid,.certs{grid-template-columns:repeat(2,1fr)}.about-grid{gap:35px}}
+@media(max-width:620px){.wrap{width:calc(100% - 30px)}nav{height:66px}.menu{display:block}.navlinks{display:none;position:absolute;left:0;right:0;top:66px;padding:18px 22px;background:var(--bg);border-bottom:1px solid var(--line);flex-direction:column;align-items:flex-start}.navlinks.open{display:flex}.hero{padding:58px 0 35px}.hero-grid{grid-template-columns:1fr;gap:10px}.hero-art{min-height:330px}.profile-card{width:220px;height:260px}.profile-card .initials{font-size:65px}.floating.float-one{right:0}.floating.float-two{left:0}.lead{font-size:15px}.quickfacts{grid-template-columns:1fr}.fact{border-right:0;border-bottom:1px solid var(--line);padding:14px 18px}.fact:last-child{border-bottom:0}.content{padding:60px 0!important}.section-head{align-items:flex-start;flex-direction:column}.about-grid,.education-grid{grid-template-columns:1fr}.skills-grid{grid-template-columns:repeat(2,1fr);gap:9px}.skill{padding:13px 10px;font-size:12px}.project-grid,.certs{grid-template-columns:1fr}.project{min-height:220px}.contact{padding:28px 22px;grid-template-columns:1fr}.contact h2{font-size:32px}.footer-row{flex-direction:column;gap:5px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.reveal{opacity:1;transform:none;transition:none}*{transition:none!important}}
+
+.profile-photo-card{padding:0;justify-content:flex-end;background:#eaf2f8;transform:none;width:300px;height:300px;aspect-ratio:1/1;border-radius:50%;overflow:hidden;box-shadow:0 24px 70px #263a2a16}
+.profile-photo-card:after{display:none}
+.profile-photo{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 24%;border-radius:50%}
+.profile-photo-card .card-bottom{position:absolute;z-index:2;left:0;right:0;bottom:0;padding:40px 14px 20px;background:linear-gradient(transparent,rgba(12,24,24,.78));color:#fff;text-align:center}
+.profile-photo-card .card-bottom strong{font-size:17px}
+.profile-photo-card .card-bottom span{color:#eef4f1}
+
+@media(max-width:620px){.profile-photo-card{width:230px;height:230px;border-radius:50%}.profile-photo{border-radius:50%}}\n</style>
+</head>
+<body>
+<header><nav class="wrap">
+<a class="brand" href="#home"><span class="monogram">AM</span><span>AAYUSHI MEHTA</span></a>
+<div class="navlinks" id="navlinks"><a href="#about">About</a><a href="#skills">Skills</a><a href="#focus">Approach</a><a href="#projects">Projects</a><a href="#education">Education</a><a href="#certifications">Certifications</a></div>
+<a class="nav-cta" href="#contact">Get in touch ↗</a><button class="menu" id="menu" aria-label="Toggle menu">☰</button>
+</nav></header>
+<main>
+<section class="hero" id="home"><div class="wrap hero-grid">
+<div class="reveal"><div class="kicker">Data science · Analytics</div><h1>Turning data<br>into <span>direction.</span></h1>
+<p class="lead">I’m Aayushi Mehta, an M.Sc. Data Science student interested in turning raw data into clear insights. I combine analytical thinking with hands-on project work across Python, dashboards, databases and web applications.</p>
+<div class="actions"><a class="btn primary" href="#projects">Explore my work <span>↗</span></a><a class="btn secondary" href="#contact">Let’s connect</a></div>
+<div class="socials"><a href="https://www.linkedin.com/in/aayushimehta09" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a><a href="https://github.com/aayushiii09" target="_blank" rel="noreferrer">GitHub ↗</a><a href="mailto:iaayushimehta@gmail.com">Email ↗</a></div></div>
+<div class="hero-art reveal" aria-label="Portfolio monogram illustration"><div class="orbit"></div><div class="profile-card profile-photo-card"><img class="profile-photo" src="assets/aayushi-profile.png" alt="Aayushi Mehta profile photo"><div class="card-bottom"><strong>Aayushi Mehta</strong></div></div></div>
+</div>
+<div class="wrap quickfacts reveal"><div class="fact"><strong>M.Sc. Data Science</strong><span>SVKM’s NMIMS, Mumbai</span></div><div class="fact"><strong>Analytics-minded</strong><span>Python · SQL · Excel · Visualization</span></div><div class="fact"><strong>Open to opportunities</strong><span>Internships · Projects · Collaboration</span></div></div>
+</section>
+<section class="content about" id="about"><div class="wrap about-grid">
+<div class="about-copy reveal"><div class="eyebrow">A little about me</div><h2>Curiosity meets<br>clear thinking.</h2><p>I’m an IT graduate and M.Sc. Data Science student at SVKM’s NMIMS, Mumbai, passionate about Data Analytics, AI, and Machine Learning. With skills in Python, SQL, Excel, and data visualisation, I enjoy building data-driven applications and dashboards. Through projects like TravelSage, SnapBeat, and my system monitoring dashboard, I’m developing practical skills to solve real-world problems and pursue Data Analyst or AI-focused internship opportunities.</p><p></p></div>
+<div class="values reveal"><div class="value"><div class="value-icon">01</div><div><strong>Analytical problem-solving</strong><span>Breaking complex questions into manageable steps.</span></div></div><div class="value"><div class="value-icon">02</div><div><strong>Continuous learning</strong><span>Building skills through coursework and hands-on projects.</span></div></div><div class="value"><div class="value-icon">03</div><div><strong>Clear communication</strong><span>Making insights understandable and actionable.</span></div></div></div>
+</div></section>
+<section class="content" id="focus"><div class="wrap">
+<div class="section-head reveal"><div><div class="eyebrow">Professional focus</div><h2>How I approach data</h2></div>
+<p class="section-sub">A practical, learning-led approach—from asking better questions to communicating useful outcomes.</p></div>
+<div class="skills-grid reveal">
+<div class="skill"><span class="skill-icon">01</span><span><strong>Explore</strong><br><small style="font-weight:500;color:var(--muted)">Understand the question and inspect the data.</small></span></div>
+<div class="skill"><span class="skill-icon">02</span><span><strong>Analyze</strong><br><small style="font-weight:500;color:var(--muted)">Use Python, SQL and spreadsheets to find patterns.</small></span></div>
+<div class="skill"><span class="skill-icon">03</span><span><strong>Visualize</strong><br><small style="font-weight:500;color:var(--muted)">Turn results into clear dashboards and visuals.</small></span></div>
+<div class="skill"><span class="skill-icon">04</span><span><strong>Communicate</strong><br><small style="font-weight:500;color:var(--muted)">Present findings in a useful, accessible way.</small></span></div>
+</div></div></section>
+<section class="content" id="skills"><div class="wrap"><div class="section-head reveal"><div><div class="eyebrow">Toolkit</div><h2>Skills & technologies</h2></div></div>
+<div class="skills-grid reveal"><div class="skill"><span class="skill-icon">Py</span>Python</div><div class="skill"><span class="skill-icon">SQL</span>SQL</div><div class="skill"><span class="skill-icon">XLS</span>Excel</div><div class="skill"><span class="skill-icon">Viz</span>Data Visualization</div><div class="skill"><span class="skill-icon">ML</span>Machine Learning</div><div class="skill"><span class="skill-icon">BI</span>Data Analysis</div><div class="skill"><span class="skill-icon">St</span>Streamlit</div><div class="skill"><span class="skill-icon">GH</span>GitHub</div><div class="skill"><span class="skill-icon">HTML</span>HTML</div><div class="skill"><span class="skill-icon">CSS</span>CSS</div><div class="skill"><span class="skill-icon">C</span>C Programming</div><div class="skill"><span class="skill-icon">PHP</span>PHP & MySQL</div></div></div></section>
+<section class="content projects-section" id="projects"><div class="wrap"><div class="section-head reveal"><div><div class="eyebrow">Selected work</div><h2>Academic projects</h2></div><p class="section-sub">Explore selected projects, with each repository linked for more details.</p></div>
+<div class="project-grid reveal">
+<article class="project"><div class="project-top"><span class="project-number">2026</span><a class="project-arrow" href="https://github.com/aayushiii09/SnapBeat-The-Music-Identifier" target="_blank" rel="noopener noreferrer" aria-label="View SnapBeat on GitHub">↗</a></div><h3>SnapBeat</h3><p>Developed an Android-based music recognition app that identifies songs in real time by capturing short audio clips and matching them with an online recognition service. Designed for fast results and a smooth, user-friendly music discovery experience.</p><div class="tags"><span class="tag">Java</span><span class="tag">Android Studio</span></div></article>
+<article class="project"><div class="project-top"><span class="project-number">2025</span><a class="project-arrow" href="https://github.com/aayushiii09/Real-Time-System-Resource-Monitoring-Dashboard" target="_blank" rel="noopener noreferrer" aria-label="View Real-Time System Resource Monitoring Dashboard on GitHub">↗</a></div><h3>Real-Time System Resource Monitoring Dashboard</h3><p>Built an interactive dashboard to monitor real-time system performance, network activity, and application usage. Used Python, psutil, Pandas, Plotly, and Requests for data collection, processing, and visualisation.</p><div class="tags"><span class="tag">Python</span><span class="tag">Streamlit</span></div></article>
+<article class="project"><div class="project-top"><span class="project-number">2025</span><a class="project-arrow" href="https://github.com/aayushiii09/TravelSage" target="_blank" rel="noopener noreferrer" aria-label="View TravelSage on GitHub">↗</a></div><h3>TravelSage</h3><p>Developed an interactive tourist exploration web application that helps users discover destinations and enhance their travel experience. Built a responsive interface using Streamlit, HTML, CSS, and JavaScript.</p><div class="tags"><span class="tag">Python</span><span class="tag">Streamlit</span><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span></div></article>
+<article class="project"><div class="project-top"><span class="project-number">2025</span><a class="project-arrow" href="https://github.com/aayushiii09/Petals-Papers" target="_blank" rel="noopener noreferrer" aria-label="View Petals-Papers on GitHub">↗</a></div><h3>Petals-Papers</h3><p>Developed a dynamic web application using PHP, MySQL, HTML, CSS, and JavaScript, with database integration through phpMyAdmin. Deployed and tested the application locally using XAMPP.</p><div class="tags"><span class="tag">PHP</span><span class="tag">MySQL</span><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span></div></article>
+<article class="project"><div class="project-top"><span class="project-number">2024</span><a class="project-arrow" href="https://github.com/aayushiii09/Brew-Bliss-Coffee-Shop" target="_blank" rel="noopener noreferrer" aria-label="View Brew Bliss Coffee Shop on GitHub">↗</a></div><h3>Brew Bliss Coffee Shop</h3><p>Developed a responsive coffee shop website as a first-year project, demonstrating foundational skills in web development and UI design. Implemented an engaging layout and interactive elements using HTML, CSS, and JavaScript.</p><div class="tags"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span></div></article>
+</div></div></section>
+<section class="content" id="education"><div class="wrap"><div class="section-head reveal"><div><div class="eyebrow">Background</div><h2>Education</h2></div></div><div class="education-grid reveal">
+<article class="education"><div class="edu-top"><span class="eyebrow">Postgraduate</span><span class="edu-date">2026 — Present</span></div><h3>M.Sc. Data Science</h3><p>Nilkamal School of Mathematics, Applied Statistics and Analytics<br>SVKM’s NMIMS · Mumbai</p></article>
+<article class="education"><div class="edu-top"><span class="eyebrow">Undergraduate</span><span class="edu-date">2023 — 2026</span></div><h3>Bachelor of Computer Applications (BCA)</h3><p>Marwadi University · Gujarat<br>CGPA: 7.9 / 10</p></article>
+</div></div></section>
+<section class="content" id="certifications" style="background:#fff;border-top:1px solid var(--line);border-bottom:1px solid var(--line)"><div class="wrap">
+<div class="section-head reveal"><div><div class="eyebrow">Learning & experience</div><h2>Certifications</h2></div></div>
+<div class="cert-group reveal">
+<h3 class="cert-group-title">Experience <span>Job simulations</span></h3>
+<div class="certs">
+<article class="cert">
+<div class="cert-brand">Forage · British Airways</div>
+<h3>Data Science Job Simulation</h3>
+<p>Practical tasks in lounge eligibility modeling and predicting customer buying behaviour.</p>
+<a class="verify" href="assets/certificates/british-airways-data-science-job-simulation.pdf" target="_blank" rel="noopener noreferrer">View certificate ↗</a>
+</article>
+<article class="cert">
+<div class="cert-brand">Forage · Deloitte</div>
+<h3>Data Analytics Job Simulation</h3>
+<p>Practical tasks in data analysis and forensic technology.</p>
+<a class="verify" href="assets/certificates/deloitte-data-analytics-job-simulation.pdf" target="_blank" rel="noopener noreferrer">View certificate ↗</a>
+</article>
+<article class="cert">
+<div class="cert-brand">Forage · Deloitte</div>
+<h3>Technology Job Simulation</h3>
+<p>Practical tasks focused on coding and development.</p>
+<a class="verify" href="assets/certificates/deloitte-technology-job-simulation.pdf" target="_blank" rel="noopener noreferrer">View certificate ↗</a>
+</article>
+</div>
+</div>
+<div class="cert-group reveal">
+<h3 class="cert-group-title">Learning <span>Courses & credentials</span></h3>
+<div class="certs">
+<article class="cert">
+<div class="cert-brand">Cisco Networking Academy</div>
+<h3>Introduction to Modern AI</h3>
+<p>Foundational concepts and applications in modern artificial intelligence.</p>
+<a class="verify" href="assets/certificates/introduction-to-modern-ai.pdf" target="_blank" rel="noopener noreferrer">View certificate ↗</a>
+</article>
+<article class="cert">
+<div class="cert-brand">Cisco Networking Academy</div>
+<h3>Introduction to Data Science</h3>
+<p>An introduction to data science workflows and core concepts.</p>
+<a class="verify" href="assets/certificates/introduction-to-data-science.pdf" target="_blank" rel="noopener noreferrer">View certificate ↗</a>
+</article>
+<article class="cert">
+<div class="cert-brand">Cisco Networking Academy / NSDC</div>
+<h3>Data Analytics Essentials</h3>
+<p>Foundational learning in data analytics methods and tools.</p>
+<a class="verify" href="assets/certificates/data-analytics-essentials.pdf" target="_blank" rel="noopener noreferrer">View certificate ↗</a>
+</article>
+<article class="cert">
+<div class="cert-brand">Microsoft / Coursera</div>
+<h3>Cybersecurity Threat Vectors and Mitigation</h3>
+<p>An introduction to common cybersecurity threats and mitigation approaches.</p>
+<a class="verify" href="assets/certificates/cybersecurity-threat-vectors-and-mitigation.pdf" target="_blank" rel="noopener noreferrer">View certificate ↗</a>
+</article>
+<article class="cert">
+<div class="cert-brand">Coursera</div>
+<h3>Introduction to Cybersecurity Fundamentals</h3>
+<p>Foundational learning in cybersecurity concepts and practices.</p>
+<a class="verify" href="assets/certificates/introduction-to-cybersecurity-fundamentals.pdf" target="_blank" rel="noopener noreferrer">View certificate ↗</a>
+</article>
+<article class="cert">
+<div class="cert-brand">Cisco Networking Academy</div>
+<h3>English for IT 1</h3>
+<p>English-language skills for IT and technical communication.</p>
+<a class="verify" href="assets/certificates/english-for-it-1.pdf" target="_blank" rel="noopener noreferrer">View certificate ↗</a>
+</article>
+</div>
+</div>
+</div></section>
+<section class="content" id="contact"><div class="wrap"><div class="contact reveal"><div><div class="eyebrow">Next steps</div><h2>Let’s make data useful.</h2><p>I’m open to internships, collaborative projects and opportunities to learn from teams working with data and analytics.</p><div class="contact-links"><a href="mailto:iaayushimehta@gmail.com">✉ iaayushimehta@gmail.com</a><span>⌖ Mumbai, India</span></div></div><a class="btn" href="mailto:iaayushimehta@gmail.com">Start a conversation ↗</a></div></div></section>
+</main>
+<footer><div class="wrap footer-row"><span>© <span id="year"></span> Aayushi Mehta</span><span></span></div></footer>
+<script>
+document.getElementById('year').textContent=new Date().getFullYear();
+const menu=document.getElementById('menu'),links=document.getElementById('navlinks');
+menu.addEventListener('click',()=>links.classList.toggle('open'));
+links.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>links.classList.remove('open')));
+const observer=new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('visible');observer.unobserve(e.target)}}),{threshold:.12});
+document.querySelectorAll('.reveal').forEach(el=>observer.observe(el));
+</script>
+</body>
+</html>
